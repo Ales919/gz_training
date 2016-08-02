@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/hello_world.dir/hello_world.cc.o"
   "libhello_world.pdb"
-  "libhello_world.so"
+  "libhello_world.dylib"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/hello_world.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/hello_world.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

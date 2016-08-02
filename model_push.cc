@@ -23,7 +23,7 @@ namespace gazebo
     public: void OnUpdate(const common::UpdateInfo & /*_info*/)
     {
       // Apply a small linear velocity to the model.
-      this->model->SetLinearVel(math::Vector3(.1, 0, 0));
+      this->model->SetLinearVel(math::Vector3(1, 0, 0));
     }
 
     // Pointer to the model
